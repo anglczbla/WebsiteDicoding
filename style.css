@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #f41414;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+article {
+    flex: 3;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
